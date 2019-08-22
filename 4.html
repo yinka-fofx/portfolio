@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!--stylesheets-->
+    <link rel="stylesheet" href="src/css/bootstrap.min.css">
+    <link rel="stylesheet" href="src/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="src/mystyle.css">
+
+</head>
+
+<!--Container-class-->
+
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <a class="navbar-brand" href="#">
+        <div class="header">
+            <i>
+                <h2>My Portfolio</h2>
+            </i>
+        </div>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#mycard">Project</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contactus">Contact us</a>
+            </li>
+            <li class="nav-item"><button class="btn btn-warning my-2 my-sm-0" type="submit">Hire me
+                    <!-- <a class="nav-link" href="#">Hire me</a> -->
+                </button>
+            </li>
+
+        </ul>
+
+    </div>
+</nav>
+
+<!--Jumbotron/Image-->
+<div class="row bg-secondary">
+    <div class="media">
+        <div class="media-body ml-5 mt-5">
+            <h5 class="mt-0 mb-3">Meet Dr.Yinka Femi</h5>
+            Yinka Femi is a beloved software developer with speciality in variety of computer languages ranging from
+            javascript, laravel, python. He is also an enterpreneur, digital marketer and lifestyle businessman.
+            He overcame career adversity at an early age. despite his success in business, femi's greatest joys are
+            spending time with his family and friends.
+        </div>
+        <img src="src/fm2019.jpg" class="ml-3" alt="Profile Pic">
+    </div>
+
+</div>
+
+<!--Collapse-class-->
+
+<div class="accordion" id="accordionExample">
+    <div class="card">
+        <div class="card-header" id="headingOne">
+            <h2 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                    aria-expanded="true" aria-controls="collapseOne">
+                    My Philosophy
+                </button>
+            </h2>
+        </div>
+
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body">
+                At fofx (ef-of-ex), we believe in the power of learning. Given the rapidly changing nature of our world
+                and dazing speed of advances in technology, we believe that the most important skill we can teach you is
+                the ability to learn. We believe that learning who, when, where and how to ask the right questions is
+                more important than knowing the right answer, because in today’s digital world, the answer is always
+                changing.
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header" id="headingTwo">
+            <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo"
+                    aria-expanded="false" aria-controls="collapseTwo">
+                    Our Mission
+                </button>
+            </h2>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body">
+                fofx’s mission is to help people learn how to learn, unlearn and relearn the skills they require to have
+                a successful career in an era of digital transformation.
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header" id="headingThree">
+            <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree"
+                    aria-expanded="false" aria-controls="collapseThree">
+                    My Story
+                </button>
+            </h2>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <div class="card-body">
+                A common feedback we had been hearing from clients was difficulty finding tech talent to hire. This was
+                not due to a shortage of applicants but the inadequate skill demonstrated by the applicants in the
+                selection process, even though their resumes read like an honour roll.
+
+                We believe this can be addressed by equipping our students not only with the theoretical knowledge, but
+                practical skills and the ability to update those skills by themselves as the technical know-how demanded
+                by the labour market evolves.
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--card-->
+
+<div class="text-center mt-4">
+    <h1 id="mycard">Projects</h1>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <img src="src/fox.png" class="card-img-top" alt="fofx-image">
+                <div class="card-body">
+                    <h5 class="card-title">Bootcamp World</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional
+                        content.</p>
+                    <a href="https://getbootstrap.com/" class="btn btn-primary">Visit boostrap</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="src/fox.png" class="card-img-top" alt="fofx-image">
+                <div class="card-body">
+                    <h5 class="card-title">Bootcamp World</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional
+                        content.</p>
+                    <a href="https://learn.fofxacademy.com/" class="btn btn-primary">Learning
+                        Documentaion </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card">
+                <img src="src/fox.png" class="card-img-top" alt="fofx-image">
+                <div class="card-body">
+                    <h5 class="card-title">Bootcamp World</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional
+                        content.</p>
+                    <a href="https://github.com/" class="btn btn-primary">Visit github</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<!--Footer-->
+<footer class="footer bg-dark text-white">
+    
+    <h4 class="text-center p-3" id="contactus">CONTACT US</h4>
+    
+    <hr with="50%" class="bg-white">
+   
+    <div class="row">
+        <!-- Footer -->
+
+            <div class="container-fluid">
+                
+                    <!-- Grid row-->
+                    <div class="row d-flex justify-content-center">
+
+                        <!-- Grid column -->
+                        <div class="col-md-6 col-lg-5 text-center text-md-left">
+                            <h6 class="mb-0 ">Get connected with us on social networks!</h6>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-6 col-lg-7 text-center text-md-right">
+
+                            <!-- Facebook -->
+                            <a>
+                                <i class="fa fa-facebook white-text mr-4"> </i>
+                            </a>
+                            <!-- Twitter -->
+                            <a>
+                                <i class="fa fa-twitter white-text mr-4"> </i>
+                            </a>
+                            <!-- Google +-->
+                            <a>
+                                <i class="fa fa-google-plus white-text mr-4"> </i>
+                            </a>
+                            <!--Linkedin -->
+                            <a>
+                                <i class="fa fa-linkedin white-text mr-4"> </i>
+                            </a>
+                            <!--Instagram-->
+                            <a>
+                                <i class="fa fa-instagram white-text"> </i>
+                            </a>
+
+                        </div>
+                        <!-- Grid column -->
+
+                    
+                    <!-- Grid row-->
+
+                </div>
+            </div>
+
+            <!-- Footer Links -->
+            <div class="container text-center text-md-left mt-5">
+
+                <!-- Grid row -->
+                <div class="row mt-3">
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+                        <!-- Content -->
+                        <h6 class="text-uppercase font-weight-bold">Yin-Fem.Inc</h6>
+                        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                        <p>Here you can use rows and columns to organize your footer content. Lorem
+                            ipsum dolor sit amet,
+                            consectetur
+                            adipisicing elit.</p>
+
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+                        <!-- Links -->
+                        <h6 class="text-uppercase font-weight-bold">Portfolios</h6>
+                        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                        <p>
+                            <a href="#!">Github</a>
+                        </p>
+                        <p>
+                            <a href="#!">Bootstrap</a>
+                        </p>
+                        <p>
+                            <a href="#!">JavaScript</a>
+                        </p>
+                        <p>
+                            <a href="#!">PHP</a>
+                        </p>
+
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+                        <!-- Links -->
+                        <h6 class="text-uppercase font-weight-bold">Contact</h6>
+                        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                        <p>
+                            <i class="fa fa-home mr-3"></i> 12, Ayodele Okeowo street, Gbagada</p>
+                        <p>
+                            <i class="fa fa-envelope mr-3"></i> info@fofx.com</p>
+                        <p>
+                            <i class="fa fa-phone mr-3"></i> 234-70307012</p>
+                        <p>
+
+
+                    </div>
+                    <!-- Grid column -->
+
+                </div>
+                <!-- Grid row -->
+
+            </div>
+            <!-- Footer Links -->
+
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3">© 2019 Copyright:
+                Yinka & Femi</a>
+            </div>
+            <!-- Copyright -->
+
+            <!-- Footer -->
+        </div>
+    </footer>
+
+
+
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="src/js/jquery-3.3.1.slim.min.js"></script>
+<script src="src/js/popper.min.js"></script>
+<script src="src/js/bootstrap.min.js"></script>
+
+<body>
+
+
+
+</body>
+
+</html>

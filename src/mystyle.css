@@ -1,0 +1,39 @@
+.my-row-box {
+    height: 80px
+
+}
+
+.bb{
+    background-color: aliceblue;
+}
+.header h2 { font-family: 'Merriweather', serif;
+    font-size: 2rem;
+    color: rgb(211, 193, 193);
+    font-weight: bolder;
+    border: 5px solid;
+    border-style: double dashed;
+    border-radius: 20px;
+    border-top: none;
+    text-align: center;
+    font-size:25px;
+    cursor: pointer !important;
+
+
+
+}
+
+h2.hover {
+    border: 5px, solid;
+        border-style: double dashed;
+        border-bottom:none !important;
+
+}
+
+.media-body{
+    font-family: 'Merriweather', serif;
+    color: white !important;
+    font-size: 18px !important;
+
+
+}
+.h1
